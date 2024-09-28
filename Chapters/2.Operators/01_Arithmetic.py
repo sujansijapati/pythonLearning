@@ -27,10 +27,7 @@
    - Raises the first value to the power of the second.
    - Example: 2 ** 3 results in 8."""
 
-
-#Example ::
-
- num1 = int(input("Enter the first number: "))
- num2 = int(input("Enter the second number: "))
- add = num1 + num2
- print(f"The sum of {num1} and {num2} is {add}.")
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+add = num1 + num2
+print(f"The sum of {num1} and {num2} is {add}.")
