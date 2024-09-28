@@ -1,37 +1,36 @@
-print("""Please Select the options: 
-      1. Addition
-      2. Subtraction
-      3. Multiplication
-      4. Division""")
+"""
+1. Addition (+)  
+   - Adds two values.
+   - Example: 5 + 3 results in 8.
 
-option = input("Enter the option: ")
-if option == "1" or option == "2" or option == "3" or option == "4" or option <= "0" or option > "4":
-    if option == "1":
-        num1 = int(input("Enter the first number: "))
-        num2 = int(input("Enter the second number: "))
-        add = num1 + num2
-        print(f"The sum of {num1} and {num2} is {add}.")
+2. Subtraction (-)  
+   - Subtracts the second value from the first.
+   - Example: 10 - 4 results in 6.
 
-    elif option == "2":
-        num1 = int(input("Enter the first number: "))
-        num2 = int(input("Enter the second number: "))
-        sub = num1 - num2
-        print(f"The difference between {num1} and {num2} is {sub}.")
+3. Multiplication (*)  
+   - Multiplies two values.
+   - Example: 6 * 7 results in 42.
 
-    elif option == "3":
-        num1 = int(input("Enter the first number: "))
-        num2 = int(input("Enter the second number: "))
-        mul = num1 * num2
-        print(f"The product of {num1} and {num2} is {mul}.")
+4. Division (/)  
+   - Divides the first value by the second and gives the result as a float.
+   - Example: 8 / 2 results in 4.0.
 
-    elif option == "4":
-        num1 = int(input("Enter the first number: "))
-        num2 = int(input("Enter the second number: "))
-        if num2 != 0:
-          div = num1/num2
-          print(f"The quotient of {num1} and {num2} is {div}.")
-        else:
-            print("Error! Division by Zero is not allow")
+5. Floor Division (//)  
+   - Divides the first value by the second and gives the result as an integer (rounded down).
+   - Example: 9 // 2 results in 4.
 
-    elif option == "0" or option > "4":
-        print("The option is Invalid. Please select the valid operation")
+6. Modulus (%) 
+   - Returns the remainder after division.
+   - Example: 10 % 3 results in 1.
+
+7.Exponentiation (**)  
+   - Raises the first value to the power of the second.
+   - Example: 2 ** 3 results in 8."""
+
+
+#Example ::
+
+ num1 = int(input("Enter the first number: "))
+ num2 = int(input("Enter the second number: "))
+ add = num1 + num2
+ print(f"The sum of {num1} and {num2} is {add}.")
