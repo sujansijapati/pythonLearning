@@ -1,4 +1,3 @@
-
 #[textbook][2] Write a Python program that prints (displays) your name, address, and telephone number. 
 
 name = "sujan sijapati"
