@@ -10,3 +10,4 @@ numberOfOldVideos = int(input("Enter the number of old videos rented: "))
 TC = (numberOfNewVideos * newVideoPrice) + (numberOfOldVideos * oldVideoPrice)
 
 print(f"Total rental cost is: $ {round(TC, 2)}")
+ 
