@@ -2,7 +2,7 @@
 '''Hint: You can call the round function and use it as shown below 
 round(incomeTax, 2)'''
 
-GI = float(input("Enter the Gross Income: "))
-TR = float(input("Enter the Tax Rate: "))
-IT = GI * TR
+GI = float(input("Enter the Gross Income: "))  #Gross Income
+TR = float(input("Enter the Tax Rate: ")) #Tax Rate
+IT = GI * TR    #Income Tax
 print(f"The Income Tax is {round(IT, 2)}")
