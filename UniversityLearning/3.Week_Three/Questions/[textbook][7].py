@@ -1,3 +1,5 @@
+#[textbook][7] Write a program that calculates and prints the number of minutes in a year. 
+
 totalDaysInAYear = 365
 hoursInADay = 24
 minInAHour = 60
